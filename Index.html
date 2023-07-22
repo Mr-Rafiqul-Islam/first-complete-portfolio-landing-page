@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <title>Coustomize HTML5 WEBPAGE</title>
+    <!-- stylesheet added using external css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- stylesheet added using font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        [id*="-error"]{
+            color: chartreuse;
+            float: left;
+            margin-top: -10px;
+        }
+    </style>
+    <script rel="script" src="js/jquery-3.6.3.js"></script>
+    <script rel="script" src="js/custom.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <!-- Company name & logo -->
+        <div class="company">
+            <img src="images/Logo.png" alt="Company Logo">
+            <h2>Mr.Chegs</h2>
+        </div>
+        <!-- Menu Part -->
+        <nav class="menu">
+            <div id="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a class="btn" href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Slider part -->
+        <section id="home">
+            <div class="container">
+
+                <!-- Content part -->
+                <div class="col-50" id="intro">
+                    <div class="content">
+                        <p>Introduction</p>
+                        <h6>Hello, My name is Mr. Chegs</h6>
+                        <h2>I'M A PROGRAMMER</h2>
+                        <button onclick="location.href='#projects'" class="btn" id="bt1">My Work</button>
+                        <button onclick="location.href='#contact'" class="btn">Hire me</button>
+                    </div>
+                </div>
+                <!-- person part  -->
+                <div class="col-50">
+                    <img src="images/Mypic.png" alt="Mr. Chegs">
+                </div>
+            </div>
+        </section>
+        <!-- About me part -->
+        <section id="about">
+            <div class="container">
+                <div>
+                    <h6>About Me</h6>
+                    <h1>Welcome to my Website</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquid itaque perferendis
+                        libero Nisi, excepturi eveniet quis, quod iusto impedit, possimus corrupti dignissimos ullam nam
+                        doloremque voluptate provident. Tenetur praesentium vitae molestiae doloribus fuga corporis, rem
+                        tempora
+                        asperiores consectetur? Porro doloremque accusantium cumque saepe at eligendi earum
+                        exercitationem repudiandae facere. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Sapiente nulla fugit amet itaque assumenda molestiae. Quis hic quas ipsa voluptas.</p>
+                </div>
+                <!-- progress part -->
+                <div class="progress">
+                    <!-- progress content -->
+                    <div class="col-33">
+                        <div class="content">
+                            <h5>WEB DESIGN</h5>
+                            <div>
+                                <!-- progress chart -->
+                                <div style="height: 7px; width: 90%; background-color: #4384dd;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <h5>PHP DEVELOPMENT</h5>
+                            <div>
+                                <!-- progress chart -->
+                                <div style="height: 7px; width: 70%; background-color: #b399cb;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <h5>PHOTOGRAPHY</h5>
+                            <div>
+                                <!-- progress chart -->
+                                <div style="height: 7px; width: 80%; background-color: #7a7979bd;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <h5>BRANDING</h5>
+                            <div>
+                                <!-- progress chart -->
+                                <div style="height: 7px; width: 60%; background-color: rgb(85, 197, 33);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <h5>MARKETING</h5>
+                            <div>
+                                <!-- progress chart -->
+                                <div style="height: 7px; width: 78%; background-color: rgb(235, 222, 42);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <h5>SEO</h5>
+                            <div>
+                                <!-- progress chart -->
+                                <div style="height:7px; width: 75%; background-color: rgb(0, 109, 46);"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Services part -->
+        <section id="services">
+            <div class="container">
+                <h6>My Services</h6>
+                <h1 style="color: white; margin-bottom: 35px;">WHAT I DO</h1>
+                <!-- Services content -->
+                <div>
+                    <!-- service 001 -->
+                    <div class="col-33">
+                        <div class="content">
+                            <span><i class="fa-solid fa-list"></i></span>
+                            <h3>Professional code</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, aut!</p>
+                        </div>
+                    </div>
+                    <!-- service 002 -->
+                    <div class="col-33">
+                        <div class="content">
+                            <span><i class="fa-regular fa-lightbulb"></i></span>
+                            <h3>Creative Ideas</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, aut!</p>
+                        </div>
+                    </div>
+                    <!-- service 003 -->
+                    <div class="col-33">
+                        <div class="content">
+                            <span><i class="fa-regular fa-clone"></i></span>
+                            <h3>SEO & Marketing</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, aut!</p>
+                        </div>
+                    </div>
+                    <!-- service 004 -->
+                    <div class="col-33">
+                        <div class="content">
+                            <span><i class="fa-regular fa-heart"></i></span>
+                            <h3>User Friendly</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, aut!</p>
+                        </div>
+                    </div>
+                    <!-- service 005 -->
+                    <div class="col-33">
+                        <div class="content">
+                            <span><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, aut!</p>
+                        </div>
+                    </div>
+                    <!-- service 006 -->
+                    <div class="col-33">
+                        <div class="content">
+                            <span><i class="fa-solid fa-sliders"></i></span>
+                            <h3>Portfolio Options</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, aut!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio part -->
+        <section id="projects">
+            <div class="container">
+                <h6>View All</h6>
+                <h1 style="margin-bottom: 35px;">MY PROJECTS</h1>
+                <!-- Portfolio content -->
+                <div>
+                    <div class="col-33">
+                        <div class="content">
+                            <div>
+                                <img src="images/g1.jpg" alt="project 1">
+                            </div>
+                            <div class="overlay"><a href="">VIEW</a></div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <div>
+                                <img src="images/g2.jpg" alt="project 2">
+                            </div>
+                            <div class="overlay"><a href="">VIEW</a></div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <div>
+                                <img src="images/g3.jpg" alt="project 3">
+                            </div>
+                            <div class="overlay"><a href="">VIEW</a></div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <div>
+                                <img src="images/g4.jpg" alt="project 4">
+                            </div>
+                            <div class="overlay"><a href="">VIEW</a></div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <div>
+                                <img src="images/g5.jpg" alt="project 5">
+                            </div>
+                            <div class="overlay"><a href="">VIEW</a></div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <div>
+                                <img src="images/g6.jpg" alt="project 6">
+                            </div>
+                            <div class="overlay"><a href="">VIEW</a></div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <div>
+                                <img src="images/g7.jpg" alt="project 7">
+                            </div>
+                            <div class="overlay"><a href="">VIEW</a></div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <div>
+                                <img src="images/g8.jpg" alt="project 8">
+                            </div>
+                            <div class="overlay"><a href="">VIEW</a></div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+                        <div class="content">
+                            <div>
+                                <img src="images/g9.jpg" alt="project 9">
+                            </div>
+                            <div class="overlay"><a href="">VIEW</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Rview part -->
+        <section id="review">
+            <div class="container">
+                <!-- review content -->
+                <div class="col-25">
+                    <div class="content">
+                        <span><i class="fa-regular fa-lightbulb"></i></span>
+                        <h3>48</h3>
+                        <h5>PROJECT DONE</h5>
+                    </div>
+                </div>
+                <div class="col-25">
+                    <div class="content">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <h3>42</h3>
+                        <h5>SATISFIED CLIENTS</h5>
+                    </div>
+                </div>
+                <div class="col-25">
+                    <div class="content">
+                        <span><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                        <h3>86</h3>
+                        <h5>AWARDS</h5>
+                    </div>
+                </div>
+                <div class="col-25">
+                    <div class="content">
+                        <span><i class="fa-regular fa-face-smile-beam"></i></span>
+                        <h3>78</h3>
+                        <h5>HAPPY CLIENTS</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contuct Us part -->
+        <section id="contact">
+            <div class="container">
+                <h6>Find Me</h6>
+                <h1>CONTACT ME NOW</h1>
+                <form  name="contactForm" onsubmit="if (confirm('Do you want to send this message')) {
+                    if(myValidation() == false){return false;}
+                } else {
+                    event.preventDefault(); return false;
+                } ">
+                    <div class="col-50">
+                        <div class="content"> <!-- form part 1 -->
+                            <input type="text" name="name" value="" placeholder="Enter Your Name" onfocus="myFocus(this)">
+                            <span id="name-error"></span>
+                            <input type="email" name="email" value="" placeholder="Enter Your Email" onfocus="myFocus(this)">
+                            <span id="email-error"></span>
+                            <input type="text" name="phone" value="" placeholder="Enter Your Phone Number" onfocus="myFocus(this)">
+                            <span id="phone-error"></span>
+                        </div>
+                    </div>
+                    <!-- form part 2 -->
+                    <div class="col-50">
+                        <div class="content">
+                            <textarea name="message" id="" cols="30" rows="10"
+                                placeholder="Enter Your Message" onfocus="myFocus(this)"></textarea>
+                                <span id="message-error"></span>
+                        </div>
+                    </div>
+                    <div style="width: 100%; clear: both;">
+                        <button class="btn" id="bton" type="submit">Submit</button>
+                    </div>
+                </form>
+                <!-- Address Bar -->
+                <div id="address">
+                    <div class="col-33">
+                        <span><i class="fa-solid fa-map-location-dot"></i></span>
+                        <p>ADDRESS<br> East-Jurain,Dhaka-1204</p>
+                    </div>
+                    <div class="col-33">
+                        <span><i class="fa-regular fa-envelope"></i></span>
+                        <p>EMAIL<br> mr.chegs@yahoo.com</p>
+                    </div>
+                    <div class="col-33">
+                        <span><i class="fa-solid fa-mobile-screen-button"></i></span>
+                        <p>PHONE<br> 01237894561</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container"> <!-- copyright part -->
+            <div id="copyright">
+                &copy; 2018 all rights reserved by Mr. Chegs
+            </div>
+            <nav id="social">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="upper">
+            <i class="fa-solid fa-chevron-up"></i>
+
+        </div>
+    </footer>
+    <script>
+        function myFocus(x) {
+            x.style.background='#ffffffb8'
+        }
+
+        function myValidation() {
+            var name = document.forms['contactForm']['name'].value;
+            var email = document.forms['contactForm']['email'].value;
+            var phone = document.forms['contactForm']['phone'].value;
+            var message = document.forms['contactForm']['message'].value;
+            
+            var error =[];
+            if (name =='' || name.length <3 ) {
+                error[0]='Name must be atleast 3 letters';
+                document.getElementById('name-error').innerHTML=error[0];
+            } else {
+                document.getElementById('name-error').innerHTML='';
+            }
+            if (email =='' || email.length <10 ) {
+                error[1]='Please input a valid email';
+                document.getElementById('email-error').innerHTML=error[1];
+            } else {
+                document.getElementById('email-error').innerHTML='';
+            }
+            if (phone =='' || phone.length <11 ) {
+                error[2]='Phone must be atleast 11 letters';
+                document.getElementById('phone-error').innerHTML=error[2];
+            } else {
+                document.getElementById('phone-error').innerHTML='';
+            }
+            if (message =='' || message.length <50 ) {
+                error[3]='Message must be atleast 50 letters';
+                document.getElementById('message-error').innerHTML=error[3];
+            } else {
+                document.getElementById('message-error').innerHTML='';
+            }
+            
+            if (error.length >0) {
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>
